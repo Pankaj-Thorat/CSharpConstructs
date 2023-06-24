@@ -11,7 +11,7 @@ namespace OOPsProblems
         static void Main(string[] args)
         {
             // Create an object of the Rectangle class
-            Rectangle myRectangle = new Rectangle(4.5, 3.2);
+            Rectangle myRectangle = new Rectangle("red",4.5, 3.2);
 
             // Access and modify object properties
             Console.WriteLine("Length: " + myRectangle.Length);
@@ -26,6 +26,7 @@ namespace OOPsProblems
             Console.WriteLine("Length: " + myRectangle.Length);
             Console.WriteLine("Width: " + myRectangle.Width);
             Console.WriteLine("Area: " + myRectangle.CalculateArea());
+            Console.WriteLine("Color: " + myRectangle.Color);
         }
     }
 }

@@ -1,22 +1,31 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace OOPsProblems
 {
-    public class Rectangle
+    public class Rectangle : Shape
     {
         // Fields
         public double Length { get; set; }
         public double Width { get; set; }
 
         // Constructor
-        public Rectangle(double length, double width)
+        public Rectangle(string color, double length, double width) : base(color)
         {
             Length = length;
             Width = width;
+        }
+        public override void Display()
+        {
+            base.Display();
+            Console.WriteLine("Length: " + Length);
+            Console.WriteLine("Width: " + Width);
+            Console.WriteLine("Area: " + CalculateArea());
         }
 
         // Method to calculate the area
