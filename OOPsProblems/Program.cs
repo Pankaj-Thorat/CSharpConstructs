@@ -10,6 +10,7 @@ namespace OOPsProblems
     {
         static void Main(string[] args)
         {
+            //Que 1
             // Create an object of the Rectangle class
             Rectangle myRectangle = new Rectangle("red",4.5, 3.2);
 
@@ -27,6 +28,11 @@ namespace OOPsProblems
             Console.WriteLine("Width: " + myRectangle.Width);
             Console.WriteLine("Area: " + myRectangle.CalculateArea());
             Console.WriteLine("Color: " + myRectangle.Color);
+
+            //Que 6
+            //create an object for Variables class
+            Variables variable = new Variables();
+            variable.allVariables(); 
         }
     }
 }
