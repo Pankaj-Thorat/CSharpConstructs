@@ -20,6 +20,8 @@ namespace OOPsProblems
             Length = length;
             Width = width;
         }
+
+        //Polymorphism override
         public override void Display()
         {
             base.Display();
