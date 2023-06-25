@@ -12,7 +12,7 @@ namespace OOPsProblems
         {
             //Que 1
             // Create an object of the Rectangle class
-            Rectangle myRectangle = new Rectangle("red",4.5, 3.2);
+            Rectangle myRectangle = new Rectangle("red", 4.5, 3.2);
 
             // Access and modify object properties
             Console.WriteLine("Length: " + myRectangle.Length);
@@ -32,7 +32,11 @@ namespace OOPsProblems
             //Que 6
             //create an object for Variables class
             Variables variable = new Variables();
-            variable.allVariables(); 
+            variable.allVariables();
+
+            // Que 7
+            Methods method = new Methods();
+            method.allMethods();
         }
     }
 }
