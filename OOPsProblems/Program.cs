@@ -24,19 +24,27 @@ namespace OOPsProblems
             myRectangle.Width = 2.8;
 
             // Access updated object properties
-            Console.WriteLine("Length: " + myRectangle.Length);
-            Console.WriteLine("Width: " + myRectangle.Width);
-            Console.WriteLine("Area: " + myRectangle.CalculateArea());
-            Console.WriteLine("Color: " + myRectangle.Color);
+            //Console.WriteLine("Length: " + myRectangle.Length);
+            //Console.WriteLine("Width: " + myRectangle.Width);
+            //Console.WriteLine("Area: " + myRectangle.CalculateArea());
+            //Console.WriteLine("Color: " + myRectangle.Color);
 
             //Que 6
             //create an object for Variables class
-            Variables variable = new Variables();
-            variable.allVariables();
+            //Variables variable = new Variables();
+            //variable.allVariables();
 
             // Que 7
             Methods method = new Methods();
             method.allMethods();
+
+            //Programming Constructs
+
+            ProgrammingConstructs myProgram = new ProgrammingConstructs();
+            myProgram.EqualOrNot(10, 12);           //que 1(if else)
+            myProgram.IsValidVoterOrNot(18);        //que 3(if else)
+            myProgram.IsLargestNumber(54, 54, 65);  //que 1(if else if)
+            myProgram.AdmissionCriteria(70, 65, 51);//que 2(if else if)
         }
     }
 }
