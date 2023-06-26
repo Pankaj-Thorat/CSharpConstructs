@@ -44,7 +44,7 @@ namespace OOPsProblems
             myProgram.EqualOrNot(10, 12);           //que 1(if else)
             myProgram.IsValidVoterOrNot(18);        //que 3(if else)
             myProgram.IsLargestNumber(54, 54, 65);  //que 1(if else if)
-            myProgram.AdmissionCriteria(70, 65, 51);//que 2(if else if)
+            myProgram.AdmissionCriteria(70, 99, 50);//que 2(if else if)
         }
     }
 }

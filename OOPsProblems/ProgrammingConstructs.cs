@@ -56,7 +56,8 @@ namespace OOPsProblems
             int sum = Addition(math, physics, chemistry);
             int mp = Addition(math, physics);
             int mc = Addition(math, chemistry);
-            if (math >= 65 && physics >= 55 && chemistry >= 50 || sum >=180 || mc >= 140 || mp >= 140)
+            bool isTrue = (math >= 65 && physics >= 55 && chemistry >= 50 && sum >= 180) || ((mc >= 140 || mp >= 140) && (math >= 65 && physics >= 55 && chemistry >= 50));
+            if (isTrue)
             {
                 Console.WriteLine("Candidate is eligible for admission.");
             }
