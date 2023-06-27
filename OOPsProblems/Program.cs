@@ -45,6 +45,16 @@ namespace OOPsProblems
             myProgram.IsValidVoterOrNot(18);        //que 3(if else)
             myProgram.IsLargestNumber(54, 54, 65);  //que 1(if else if)
             myProgram.AdmissionCriteria(70, 99, 50);//que 2(if else if)
+
+            Switch switchcase = new Switch();       //que 1(switch)
+            Console.WriteLine("\n<------------ que1 ------------->");
+            Console.WriteLine("Enter any number between 1 to 7 : ");
+            int input = Convert.ToInt32(Console.ReadLine());
+            switchcase.Weekday(input);
+
+            Console.WriteLine("\n<------------ que2 ------------->");
+            switchcase.ArithmaticOperations();      //que 2(switch)
+
         }
     }
 }
