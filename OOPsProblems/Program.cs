@@ -54,14 +54,22 @@ namespace OOPsProblems
 
             //Console.WriteLine("\n<------------ que2 ------------->");
             //switchcase.ArithmaticOperations();      //que 2(switch)
-
-            Console.WriteLine("\n<------------ que1 ------------->");
+            /*
             ForLoop forLoop = new ForLoop();
+            Console.WriteLine("\n<------------ que1 ------------->");
             forLoop.GetPowerOfTwo();                //que 1(for loop)
-
+            Console.WriteLine("\n<------------ que2 ------------->");
             forLoop.SumOfSquares();                 //que 2(for loop)
-
+            Console.WriteLine("\n<------------ que3 ------------->");
             forLoop.Factorial();                    //que 3(for loop)
+            */
+            WhileLoop whileLoop = new WhileLoop();
+            Console.WriteLine("\n<------------ que1 ------------->");
+            whileLoop.FlipCoinGame();
+            Console.WriteLine("\n<------------ que2 ------------->");
+            whileLoop.ReverseWord();
+            Console.WriteLine("\n<------------ que3 ------------->");
+            whileLoop.NaturalNumber();
         }
     }
 }
