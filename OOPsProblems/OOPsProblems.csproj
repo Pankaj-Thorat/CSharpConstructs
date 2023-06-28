@@ -58,6 +58,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ForLoop.cs" />
     <Compile Include="Methods.cs" />
     <Compile Include="ProgrammingConstructs.cs" />
     <Compile Include="Rectangle.cs" />

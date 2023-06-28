@@ -12,16 +12,16 @@ namespace OOPsProblems
         {
             //Que 1
             // Create an object of the Rectangle class
-            Rectangle myRectangle = new Rectangle("red", 4.5, 3.2);
+            //Rectangle myRectangle = new Rectangle("red", 4.5, 3.2);
 
             // Access and modify object properties
-            Console.WriteLine("Length: " + myRectangle.Length);
-            Console.WriteLine("Width: " + myRectangle.Width);
-            Console.WriteLine("Area: " + myRectangle.CalculateArea());
+            //Console.WriteLine("Length: " + myRectangle.Length);
+            //Console.WriteLine("Width: " + myRectangle.Width);
+            //Console.WriteLine("Area: " + myRectangle.CalculateArea());
 
             // Modify object properties
-            myRectangle.Length = 5.1;
-            myRectangle.Width = 2.8;
+            //myRectangle.Length = 5.1;
+            //myRectangle.Width = 2.8;
 
             // Access updated object properties
             //Console.WriteLine("Length: " + myRectangle.Length);
@@ -35,26 +35,33 @@ namespace OOPsProblems
             //variable.allVariables();
 
             // Que 7
-            Methods method = new Methods();
-            method.allMethods();
+            //Methods method = new Methods();
+            //method.allMethods();
 
             //Programming Constructs
-
+            /*
             ProgrammingConstructs myProgram = new ProgrammingConstructs();
             myProgram.EqualOrNot(10, 12);           //que 1(if else)
             myProgram.IsValidVoterOrNot(18);        //que 3(if else)
             myProgram.IsLargestNumber(54, 54, 65);  //que 1(if else if)
             myProgram.AdmissionCriteria(70, 99, 50);//que 2(if else if)
+            */
+            //Switch switchcase = new Switch();       //que 1(switch)
+            //Console.WriteLine("\n<------------ que1 ------------->");
+            //Console.WriteLine("Enter any number between 1 to 7 : ");
+            //int input = Convert.ToInt32(Console.ReadLine());
+            //switchcase.Weekday(input);
 
-            Switch switchcase = new Switch();       //que 1(switch)
+            //Console.WriteLine("\n<------------ que2 ------------->");
+            //switchcase.ArithmaticOperations();      //que 2(switch)
+
             Console.WriteLine("\n<------------ que1 ------------->");
-            Console.WriteLine("Enter any number between 1 to 7 : ");
-            int input = Convert.ToInt32(Console.ReadLine());
-            switchcase.Weekday(input);
+            ForLoop forLoop = new ForLoop();
+            forLoop.GetPowerOfTwo();                //que 1(for loop)
 
-            Console.WriteLine("\n<------------ que2 ------------->");
-            switchcase.ArithmaticOperations();      //que 2(switch)
+            forLoop.SumOfSquares();                 //que 2(for loop)
 
+            forLoop.Factorial();                    //que 3(for loop)
         }
     }
 }
