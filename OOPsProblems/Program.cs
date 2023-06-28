@@ -65,11 +65,11 @@ namespace OOPsProblems
             */
             WhileLoop whileLoop = new WhileLoop();
             Console.WriteLine("\n<------------ que1 ------------->");
-            whileLoop.FlipCoinGame();
+            whileLoop.FlipCoinGame();               //que 1(while loop)
             Console.WriteLine("\n<------------ que2 ------------->");
-            whileLoop.ReverseWord();
+            whileLoop.ReverseWord();                //que 2(while loop)
             Console.WriteLine("\n<------------ que3 ------------->");
-            whileLoop.NaturalNumber();
+            whileLoop.NaturalNumber();              //que 3(while loop)
         }
     }
 }
