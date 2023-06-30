@@ -1,4 +1,5 @@
-﻿using System;
+﻿using OOPsProblems.Abstraction;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -63,13 +64,18 @@ namespace OOPsProblems
             Console.WriteLine("\n<------------ que3 ------------->");
             forLoop.Factorial();                    //que 3(for loop)
             */
-            WhileLoop whileLoop = new WhileLoop();
-            Console.WriteLine("\n<------------ que1 ------------->");
-            whileLoop.FlipCoinGame();               //que 1(while loop)
-            Console.WriteLine("\n<------------ que2 ------------->");
-            whileLoop.ReverseWord();                //que 2(while loop)
-            Console.WriteLine("\n<------------ que3 ------------->");
-            whileLoop.NaturalNumber();              //que 3(while loop)
+            //WhileLoop whileLoop = new WhileLoop();
+            //Console.WriteLine("\n<------------ que1 ------------->");
+            //whileLoop.FlipCoinGame();               //que 1(while loop)
+            //Console.WriteLine("\n<------------ que2 ------------->");
+            //whileLoop.ReverseWord();                //que 2(while loop)
+            //Console.WriteLine("\n<------------ que3 ------------->");
+            //whileLoop.NaturalNumber();              //que 3(while loop)
+            
+
+            //Abstraction 
+            Child child = new Child("Rupesh", 07, 36000);//After deduction : 32400
+            child.CalculateSalary();
         }
     }
 }
