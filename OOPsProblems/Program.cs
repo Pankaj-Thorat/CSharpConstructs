@@ -1,4 +1,5 @@
 ﻿using OOPsProblems.Abstraction;
+using OOPsProblems.Inheritance;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -71,11 +72,35 @@ namespace OOPsProblems
             //whileLoop.ReverseWord();                //que 2(while loop)
             //Console.WriteLine("\n<------------ que3 ------------->");
             //whileLoop.NaturalNumber();              //que 3(while loop)
-            
+
 
             //Abstraction 
-            Child child = new Child("Rupesh", 07, 36000);//After deduction : 32400
-            child.CalculateSalary();
+            //Child child = new Child("Rupesh", 07, 36000);//After deduction : 32400
+            //child.CalculateSalary();
+
+            Console.WriteLine("\n<------------ Single Inheritance ------------->");
+
+            Dog dog = new Dog();
+            dog.Bark();
+            dog.Eat();
+
+            Console.WriteLine("\n<----- Multiple Inheritance (Through Interfaces) ----->");
+
+            Circle circle = new Circle();
+            circle.Radius = 12;
+            Console.WriteLine("area of circle is :"+circle.GetArea());
+            circle.Draw();
+
+            Console.WriteLine("\n<------------ Multilevel Inheritance ------------->");
+
+            Car car = new Car();
+            car.Start();
+            car.Drive();
+
+            SportsCar sportsCar = new SportsCar();
+            sportsCar.Start();
+            sportsCar.Drive();
+            sportsCar.Accelerate();
         }
     }
 }

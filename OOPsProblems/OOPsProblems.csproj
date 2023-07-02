@@ -60,6 +60,7 @@
   <ItemGroup>
     <Compile Include="Abstraction\Abstraction.cs" />
     <Compile Include="ForLoop.cs" />
+    <Compile Include="Inheritance\InheritanceTypes.cs" />
     <Compile Include="Methods.cs" />
     <Compile Include="ProgrammingConstructs.cs" />
     <Compile Include="Rectangle.cs" />
